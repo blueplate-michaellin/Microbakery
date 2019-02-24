@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h3, h3, h6{
+  font-family: 'Montserrat', sans-serif;
+  color: #171717;
+  font-weight: 800;
+}
+
+p, span, li {
+  font-family: 'Montserrat', sans-serif;
+  color: #171717;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.name {
+  font-family: 'Montserrat', sans-serif;
+  color: #C49A6B;
+  font-weight: 700;
+  opacity: 1.0;
+  font-size: 40;
+  text-align: center;
+}
+
+
+.button {
+  background-color: #866A56;
+  color: #F8F8F8;
+  border: none;
+  width: 100%;
+  height: 37px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.topNavBar {
+  display: block;
+  background-color: #171717;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  width: 100vw; /* Full width */
+  max-height: calc(23px + 10px);
+  padding: 5px 0px 5px 0px;
+  z-index: 1000;
+}
+
+.topNavSpacer {
+  height: calc(23px + 10px - 8px);
+}
+
+.topNavLogoWrapper svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.openingWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100vw;
+  height: 100vh;
+  align-content: stretch;
+  background-color: rgba(196, 154, 107, 0.1);
+}
+
+.coverImage {
+  width: auto;
+  height: 100vh;
+  left: 0;
+  margin: 0 -8px 0 -8px;
+  max-width: none;
+}
+
+.openingTagline {
+  text-align: center;
+  width: 100%;
+}
+
+.priceWrapper {
+  text-align: center;
+  margin: 30px;
+}
+
+.valignWrapper {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#originalPrice {
+  text-decoration: line-through;
+}
+
+#latestPrice {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sectionTitle {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.subSectionTitle {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subSectionWrapper {
+  flex-grow: 1;
+  flex-basis: 180px;
+  margin: 4em;
+  max-width: 250px;
+}
+
+.logoWrapper {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coverDescription {
+  text-align: center;
+  z-index: 0;
+}
+
+#openingContentWrapper {
+  margin: 0 50px;
+}
+
+#ingredientsWrapper {
+  padding: 50px;
+  margin: 0 -16px;
+  background-color: rgba(65, 65, 67, 0.9);;
+
+}
+
+#ingredientsWrapper p {
+  color: #F8F8F8;
+}
+#ingredientsWrapper h2 {
+  color: #F8F8F8;
+}
+#ingredientsWrapper h3 {
+  color: #F8F8F8;
+}
+
+.ingredients {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.ingredientsIcons {
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uk-accordion-title {
+  font-weight: 800 !important;
+  color: #000 !important;
+}
+
+#callToActionWrapper {
+  margin: 0 50px;
+}
+
+#callToActionHeading {
+  text-align: center;
+}
+
+.socialMediaWrapper {
+  min-height: 0px !important;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.socialMediaIcons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  margin: 50px 50px 25px 50px;
+}
+
+#copyright {
+  font-weight: 400;
+  opacity: 0.5;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .openingWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;;
+    align-content: stretch;
+    background-color: rgba(196, 154, 107, 0.1);
+    margin: 0px -8px;
+  }
+
+  .openingImgContainer {
+    width: 100vw;
+  }
+
+  .coverImage {
+    width: 100vw;
+    height: auto;
+    left: 0;
+    margin: 0px;
+  }
+
+  #aboutUsWrapper {
+    margin: 100px 50px;
+  }
+
+  .subSectionWrapper {
+    max-width: 100%;
+    margin: 3em 3em;
+  }
+
+  #ingredientsWrapper{
+    margin: 0px -16px !important;
+  }
+
+  #callToActionWrapper {
+    margin: 50px 50px 100px 50px;
+    text-align: center;
+  }
+}
