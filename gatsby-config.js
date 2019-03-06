@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Microbakery`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `We sell the healthist and most nutricious sourdough bread in Singapore.`,
     author: `Michael Lin`,
     siteUrl: `https://www.microbakery.co`,
   },
